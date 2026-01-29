@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "prettier --check . && eslint",
-    "format": "prettier --write . && eslint --fix"
+    "format": "prettier --write . && eslint --fix",
+    "prepare": "husky"
   },
   "dependencies": {
     "@radix-ui/react-dialog": "^1.1.15",
@@ -29,6 +30,8 @@
     "eslint": "^9",
     "eslint-config-next": "16.1.4",
     "eslint-config-prettier": "^10.1.8",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.2.7",
     "prettier": "^3.8.1",
     "prettier-plugin-tailwindcss": "^0.7.2",
     "tailwindcss": "^4",
