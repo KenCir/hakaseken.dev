@@ -1,14 +1,14 @@
-"use client";
+'use client';
 
-import Image from "next/image";
-import { useEffect, useRef, useState } from "react";
-import { ChevronDown } from "lucide-react";
-import { About } from "@/components/About";
-import { SocialLinks } from "@/components/SocialLinks";
-import { Footer } from "@/components/Footer";
-import { Contact } from "@/components/Contact";
-import { Experience } from "@/components/Experience";
-import { Skills } from "@/components/Skills";
+import Image from 'next/image';
+import { useEffect, useRef, useState } from 'react';
+import { ChevronDown } from 'lucide-react';
+import { About } from '@/components/About';
+import { SocialLinks } from '@/components/SocialLinks';
+import { Footer } from '@/components/Footer';
+import { Contact } from '@/components/Contact';
+import { Experience } from '@/components/Experience';
+import { Skills } from '@/components/Skills';
 
 export default function Home() {
   const heroRef = useRef<HTMLDivElement>(null);
@@ -33,34 +33,26 @@ export default function Home() {
 
   return (
     <div>
-      <main className="min-h-screen bg-background text-foreground">
-        <section className="relative h-svh flex items-center justify-center">
-          <div className="text-center space-y-8 px-6">
+      <main className="bg-background text-foreground min-h-screen">
+        <section className="relative flex h-svh items-center justify-center">
+          <div className="space-y-8 px-6 text-center">
             <Image
               src="/avatar.webp"
               alt="HakaseKen icon"
               width={541}
               height={541}
-              className="mx-auto w-32 h-32 rounded-full object-cover border border-white/10 shadow-md"
+              className="mx-auto h-32 w-32 rounded-full border border-white/10 object-cover shadow-md"
               priority
             />
 
-            <h1 className="text-4xl md:text-5xl font-bold tracking-tight space-y-8">
-              博瀬 健(Hakase Ken)
-            </h1>
-            <p className="text-lg text-muted-foreground">
-              Programmer / Engineer
-            </p>
+            <h1 className="space-y-8 text-4xl font-bold tracking-tight md:text-5xl">博瀬 健(Hakase Ken)</h1>
+            <p className="text-muted-foreground text-lg">Programmer / Engineer</p>
           </div>
 
           {/* Scroll Indicator */}
           <a
             href="#about"
-            className={`
-            absolute bottom-6 left-1/2 -translate-x-1/2
-            transition-all duration-300
-            ${showArrow ? "opacity-100" : "opacity-0 pointer-events-none"}
-          `}
+            className={`absolute bottom-6 left-1/2 -translate-x-1/2 transition-all duration-300 ${showArrow ? 'opacity-100' : 'pointer-events-none opacity-0'} `}
           >
             <ChevronDown className="h-6 w-6 animate-bounce" />
           </a>

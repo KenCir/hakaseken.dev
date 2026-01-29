@@ -1,9 +1,9 @@
 export function About() {
   return (
-    <section id="about" className="pt-20 pb-5 border-t border-border">
-      <div className="mx-auto max-w-3xl px-6 space-y-6">
+    <section id="about" className="border-border border-t pt-20 pb-5">
+      <div className="mx-auto max-w-3xl space-y-6 px-6">
         <h2 className="text-2xl font-bold">About</h2>
-        <p className="leading-relaxed text-muted-foreground">
+        <p className="text-muted-foreground leading-relaxed">
           初めまして、博瀬 健です。
           <br />
           大学で情報系を学びながら、色々やっているプログラマー・エンジニアです。

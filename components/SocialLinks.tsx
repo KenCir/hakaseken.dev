@@ -1,4 +1,4 @@
-import { siX, siVrchat } from "simple-icons";
+import { siX, siVrchat } from 'simple-icons';
 
 function SocialItem({
   href,
@@ -16,18 +16,9 @@ function SocialItem({
       href={href}
       target="_blank"
       rel="noopener noreferrer"
-      className="
-        flex items-start gap-4
-        text-white/80
-        hover:text-white
-        transition
-      "
+      className="flex items-start gap-4 text-white/80 transition hover:text-white"
     >
-      <svg
-        viewBox="0 0 24 24"
-        className="h-6 w-6 fill-current shrink-0 mt-1"
-        aria-label={label}
-      >
+      <svg viewBox="0 0 24 24" className="mt-1 h-6 w-6 shrink-0 fill-current" aria-label={label}>
         <path d={icon} />
       </svg>
 
@@ -41,9 +32,9 @@ function SocialItem({
 
 export function SocialLinks() {
   return (
-    <section id="social" className="pt-10 pb-5 max-w-3xl mx-auto">
-      <div className="mx-auto max-w-3xl px-6 space-y-6">
-        <h2 className="text-2xl font-semibold mb-6">Social</h2>
+    <section id="social" className="mx-auto max-w-3xl pt-10 pb-5">
+      <div className="mx-auto max-w-3xl space-y-6 px-6">
+        <h2 className="mb-6 text-2xl font-semibold">Social</h2>
 
         <div className="space-y-5 pl-10">
           <SocialItem

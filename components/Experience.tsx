@@ -1,7 +1,7 @@
 export function Experience() {
   return (
     <section id="experience" className="pt-10 pb-5">
-      <div className="mx-auto max-w-3xl px-6 space-y-10">
+      <div className="mx-auto max-w-3xl space-y-10 px-6">
         <h2 className="text-2xl font-bold">Experience</h2>
 
         <div className="space-y-8">
@@ -10,9 +10,7 @@ export function Experience() {
               <span className="font-semibold">2022年4月 - 2025年3月</span>
               <span className="text-muted-foreground">S高等学校 普通科</span>
             </div>
-            <p className="text-muted-foreground leading-relaxed">
-              {/* ここになんらかの説明 */}
-            </p>
+            <p className="text-muted-foreground leading-relaxed">{/* ここになんらかの説明 */}</p>
           </div>
 
           <div className="space-y-1">
@@ -20,9 +18,7 @@ export function Experience() {
               <span className="font-semibold">2025年10月 - Present</span>
               <span className="text-muted-foreground">ZEN大学</span>
             </div>
-            <p className="text-muted-foreground leading-relaxed">
-              {/* ここになんらかの説明 */}
-            </p>
+            <p className="text-muted-foreground leading-relaxed">{/* ここになんらかの説明 */}</p>
           </div>
 
           <div className="space-y-1">
