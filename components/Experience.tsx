@@ -16,7 +16,7 @@ export function Experience() {
           <div className="space-y-1">
             <div className="flex flex-wrap items-baseline gap-x-3">
               <span className="font-semibold">2025年10月 - Present</span>
-              <span className="text-muted-foreground">ZEN大学</span>
+              <span className="text-muted-foreground">ZEN大学 知能情報社会学部 知能情報社会学科</span>
             </div>
             <p className="text-muted-foreground leading-relaxed">{/* ここになんらかの説明 */}</p>
           </div>
