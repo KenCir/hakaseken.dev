@@ -48,7 +48,7 @@ export function SocialLinks() {
             href="https://vrchat.com/home/user/usr_3974abeb-a05d-4e4b-9d09-0a18729fe908"
             icon={siVrchat.path}
             label="VRChat"
-            description="VRChatのアカウント、フレンド申請は一度会った方かお話したことのある方のみ承認しています"
+            description="VRChatのアカウント、フレンド申請はお気軽にどうぞ"
           />
         </div>
       </div>
