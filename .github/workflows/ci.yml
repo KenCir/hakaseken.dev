@@ -5,11 +5,15 @@ on:
     paths:
       - '**/*.ts'
       - '**/*.tsx'
+      - 'package.json'
+      - 'pnpm-lock.yaml'
   push:
     branches: [main]
     paths:
       - '**/*.ts'
       - '**/*.tsx'
+      - 'package.json'
+      - 'pnpm-lock.yaml'
 
 jobs:
   lint:
