@@ -2,18 +2,11 @@ name: CI
 
 on:
   pull_request:
-    paths:
-      - '**/*.ts'
-      - '**/*.tsx'
-      - 'package.json'
-      - 'pnpm-lock.yaml'
+    branches:
+      - main
   push:
-    branches: [main]
-    paths:
-      - '**/*.ts'
-      - '**/*.tsx'
-      - 'package.json'
-      - 'pnpm-lock.yaml'
+    branches:
+      - main
 
 jobs:
   lint:
