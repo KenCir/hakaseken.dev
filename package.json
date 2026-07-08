@@ -19,7 +19,7 @@
     "next": "16.2.9",
     "react": "19.2.7",
     "react-dom": "19.2.7",
-    "simple-icons": "^16.24.0",
+    "simple-icons": "^16.25.0",
     "tailwind-merge": "^3.6.0"
   },
   "devDependencies": {
