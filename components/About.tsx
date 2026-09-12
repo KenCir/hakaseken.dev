@@ -4,7 +4,7 @@ export function About() {
       <div className="mx-auto max-w-3xl space-y-6 px-6">
         <h2 className="text-2xl font-bold">About</h2>
         <p className="text-muted-foreground leading-relaxed">
-          初めまして、博瀬 健です。
+          初めまして、けんちる (a.k.a 博瀬 健)です。
           <br />
           大学で情報系を学びながら、色々やっているプログラマー・エンジニアです。
           <br />
