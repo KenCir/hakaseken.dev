@@ -45,7 +45,7 @@ export default function Home() {
               priority
             />
 
-            <h1 className="space-y-8 text-4xl font-bold tracking-tight md:text-5xl">博瀬 健(Hakase Ken)</h1>
+            <h1 className="space-y-8 text-4xl font-bold tracking-tight md:text-5xl">けんちる (a.k.a 博瀬 健)</h1>
             <p className="text-muted-foreground text-lg">Programmer / Engineer</p>
           </div>
 

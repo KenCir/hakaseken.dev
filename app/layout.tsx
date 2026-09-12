@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: 'HakaseKen Website',
-  description: '博瀬 健のポートフォリオ的なサイトです',
+  description: 'けんちる (a.k.a 博瀬 健)のポートフォリオ的なサイトです',
 };
 
 export default function RootLayout({
